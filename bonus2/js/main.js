@@ -37,7 +37,7 @@ const teamMembers = [
 ]
 //CICLO PER OGNI MEMBRO DEL TEAM PER STAMPARE IN CONSOLE
 
-for (const member of teamMembers){
+for (const member in teamMembers){
 
     console.log(`Nome: ${member.name}`);
     console.log(`Ruolo: ${member.role}`);
